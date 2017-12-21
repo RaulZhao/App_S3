@@ -77,6 +77,7 @@ class Deck {
 	}
 	
 	public String toString() {
+		Collections.sort(pokers);
 		StringBuilder sb = new StringBuilder();
 		for (Poker p : pokers) {
 			sb.append(p).append('\n');

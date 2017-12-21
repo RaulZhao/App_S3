@@ -24,6 +24,6 @@ public class Singleton {
 	}
 }
 
-class Test {
+class TestSingleton {
 	
 }
