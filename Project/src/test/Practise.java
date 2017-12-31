@@ -10,6 +10,8 @@ public class Practise {
 	LinkedList<Integer> linkedList = new LinkedList<Integer>();
 	ArrayList<Student> students = new ArrayList<Student>();
 	ArrayList<Double> testList = new ArrayList();
+	StringBuilder sb = new StringBuilder("Hello Raul");
+	HashMap<Character, Integer> hs = new HashMap<Character, Integer>();
 
 	public boolean isPalindrome(String s) {
         int left = 0;
@@ -96,6 +98,8 @@ public class Practise {
 		System.out.println(testList);
 		int[] arr = new int[10];
 		System.out.println(str.replace("ab", "WOOO"));
+		sb.insert(5, 'W');
+		System.out.println(sb.toString());
 	}
 	public static void main (String[] arges) {
 		Practise p = new Practise();

@@ -50,7 +50,6 @@ class Producer implements Runnable{
 			while(true) {
 				Semaphores.sem.acquire();
 				String productItem = "item"+n;
-				char aa =  'a' ;
 				list.add(productItem);
 				System.out.println(name + ": generate product - " + productItem);
 				Semaphores.initSem.release(1);

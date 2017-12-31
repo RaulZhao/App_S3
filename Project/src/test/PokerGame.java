@@ -38,7 +38,7 @@ class Deck {
 		}
 	}
 	
-	public Poker shuffle() throws Exception{
+	public Poker shuffle() throws Exception {
 		if (pokers.isEmpty()) {
 			throw new Exception("No Pokers in the buffer");
 		}
